@@ -1,0 +1,68 @@
+*{
+    background-color:rgb(60, 60, 60);
+    font-family: monospace;
+
+}
+.navbar h2{
+    font-family: monospace;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    border-style: outset ;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 10px;
+}
+h2{
+    font-family: monospace;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    padding: 2px;
+}
+nav{
+    font-size: 25px;
+}
+ul{
+    font-size: 20px;
+}
+p{
+    font-size: 22px;
+}
+h3{
+    font-size: 22px;
+    font-family: monospace;
+}
+a{
+    font-style: oblique;
+}
+/* .technicalSkills{
+    color: azure;
+} */
+.allSkills{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    display:flex;
+    padding: 20px;
+    /* justify-content: space-between; */
+}
+.listItem{
+    text-decoration: none;
+    /* margin-top:100px;
+    margin-left: 25px; */
+    margin:20px;
+    padding: 20px;
+    color: aliceblue;
+}
+li{
+    list-style-type: none;
+    text-align: bottom;
+}
+.navbar a:hover{
+    color: #929191;
+}
+.navbar h2{
+    margin: 0px;
+}
+.navabr li{
+    color: aliceblue;
+}
